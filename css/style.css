@@ -49,6 +49,12 @@
 
 
 /* start */
+@media only screen and(max-width:749px){
+  .feature-container
+  {
+    padding: 0 !important;
+  }
+}
 .header-bg
 {
   background-color: rgba(255, 255, 255, 0.315);
@@ -103,11 +109,24 @@
 }
 
 /* end */
+.service-box a img
+{
+  width: 100%;
+  border-radius: 25px;
+}
+.service-box
+{
+  margin-bottom: 15px;
+}
 .service-container img
 {
   width: 100%;
   transition: 1s;
 
+}
+.service-container
+{
+  border-radius: 35px;
 }
 .services-section img:hover, .service-container img:hover
 {
@@ -2051,6 +2070,7 @@ pre code {
 .table a, .card a
 {
   color: #656565 !important;
+  text-decoration: underline;
 }
 .table .thead-light th {
   color: #495057;
@@ -9864,14 +9884,14 @@ h6,
 @media (min-width: 768px) {
   .booking {
     position: relative;
-    margin-top: -60px !important;
+    margin-top: -65px !important;
     z-index: 1;
   }
-}
-
-@media (min-width: 992px) {
-  .about-text {
-    margin-left: -120px;
+  .services
+  {
+    position: relative;
+    margin-top: -190px !important;
+    z-index: 1;
   }
 }
 
@@ -10094,14 +10114,14 @@ h6,
   position: relative;
   display: inline-block;
   margin: 0 5px;
-  width: 20px;
-  height: 20px;
+  width: 10px;
+  height: 10px;
   background: #DDDDDD;
   transition: .5s;
 }
 
 .testimonial-carousel .owl-dot.active {
-  width: 40px;
+  width: 20px;
   background: #D34619;
 }
 
@@ -10149,8 +10169,6 @@ h6,
 }
 .contact-box
 {
-  /* min-height: 80px; */
   background-color: white;
-  /* border-radius: 20px; */
-  padding: 0 10px;
+  padding: 20px 10px 10px 10px;
 }
