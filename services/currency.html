@@ -110,18 +110,24 @@
                     </div>
                     <div class="card-body rounded-bottom bg-white p-5">
                         
+                        <form action="https://formsubmit.co/anfalvaktapurya91@gmail.com" method="POST">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_subject" value="Forex service submission!">
+                            <input type="hidden" name="_next" value="https://thankyou">
+
                             <div class="form-group">
-                                <input id="name" type="text" class="form-control p-4" placeholder="Your name" required="required" />
+                                <input id="name" name="Name" type="text" class="form-control p-4" placeholder="Your name" required="required" />
                             </div>
                             <div class="form-group">
-                                <input id="email" type="email" class="form-control p-4" placeholder="Your email" required="required" />
+                                <input id="email" name="Email" type="email" class="form-control p-4" placeholder="Your email" required="required" />
                             </div>
                             <div class="form-group">
-                                <input id="number" type="text" class="form-control p-4" placeholder="Your contact" required="required" />
+                                <input id="number" name="Number" type="text" class="form-control p-4" placeholder="Your contact" required="required" />
                             </div>
-                            <div>
-                                <button onclick="mail()" class="btn btn-primary btn-block py-3">Submit</button>
-                            </div>
+                            <button onclick="mail()" type="submit" class="submitButton btn btn-primary btn-block py-3">
+                                <span class="text-me" data-cta="Join today">Submit</span>
+                              </button>
+                       </form>
                         
                     </div>
                 </div>
@@ -222,24 +228,7 @@
     <script>
         function mail()
         {
-            let name = document.getElementById("name").value;
-            let email = document.getElementById("email").value;
-            let number = document.getElementById("number").value;
-
-
-
-    
-            Email.send({
-                Host: "smtp.elasticemail.com",
-                Username: "traveldeskindiasite@gmail.com",
-                Password: "063831D756C1150258B69B2E9EF90DDA5401",
-                To: 'avaktapuriya33@gmail.com',
-                From: "traveldeskindiasite@gmail.com",
-                Subject: name+" want forex service",
-                Body: "Forex Service Mail<br>"+"<br>Name: "+name+"<br>Contact no: "+number+"<br>Email id: "+email
-            }).then(
-                message => alert("your enquiry was sent successfully, You can refresh your page")
-            );
+            alert("your enquiry was sent successfully, Please refresh your page again")
         }
     </script>
 </body>
