@@ -125,46 +125,42 @@
                 </div>
 
                 <div class="col-lg-6 p-0">
-                    <form action="https://formsubmit.co/support@traveldeskindia.com" method="POST">
-                        <input type="hidden" name="_captcha" value="false">
-                        <input type="hidden" name="_subject" value="Contact Form Submission!">
-                        <input type="hidden" name="_next" value="https://thankyou"> 
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="mb-3 mb-md-0">
-                                <div class="date" id="date2" data-target-input="nearest">
-                                    <input type="text" id="name" name="name" class="form-control p-4" placeholder="Name"/>
-                                </div>
-                            </div>
-                        </div>
-                    </div> 
+                    <div class="contact-form bg-white" style="padding: 30px;">
+                        <form action="https://formsubmit.co/support@traveldeskindia.com" method="POST">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_subject" value="Contact Form submission!">
+                            <input type="hidden" name="_next" value="https://thankyou"> 
+                        <div id="success"></div>
                         
-                    <div class="row">
-
-                        <div style="margin: 10px 0;" class="col-md-12">
-                            <div class="mb-3 mb-md-0">
-                                <div class="date" id="date2" data-target-input="nearest">
-                                    <input type="text" id="number" name="number" class="form-control p-4" placeholder="Contact no"/>
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" name="Name" class="form-control p-4" id="name" placeholder="Your Name"
+                                        required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" name="Email" class="form-control p-4" id="email" placeholder="Your Email"
+                                        required="required"
+                                        data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
                                 </div>
                             </div>
-                        </div>
+                            <div class="control-group">
+                                <input type="text" name="Subject" class="form-control p-4" id="subject" placeholder="Subject"
+                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control py-3 px-4" name="Massage" rows="5" id="message" placeholder="Message"
+                                    required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="text-center">
+                                <button onclick="mail()" class="btn btn-primary py-3 px-4">Send Message</button>
+                            </div>
+                        </form>
                     </div>
-                        
-                    <div class="row">
-
-                        <div class="col-md-12">
-                            <div class="mb-3 mb-md-0">
-                                <div class="date" id="date2" data-target-input="nearest">
-                                    <textarea name="Massage" class="form-control p-4" id="msg" cols="68" rows="8" placeholder="Massage"></textarea>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                                                
-                        
-                    <button onclick="mail()" class="btn btn-primary btn-block" style="width:30%;height: 47px; margin: 15px 0;">Submit</button>
-    
-                    </form>
                 </div>
             </div>
 
