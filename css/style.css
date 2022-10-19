@@ -9902,7 +9902,7 @@ h6,
 }
 
 .page-header {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-2.jpg), no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/tour-packages-header.png), no-repeat center center;
   background-size: cover;
 }
 .about-page-header
@@ -9965,12 +9965,12 @@ h6,
 }
 .bhutan-page-header
 {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../img/carousel-2.jpg), no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../img/tour-packages-header.png), no-repeat center center;
   background-size: cover;
 }
 .carousel-item
 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../img/loud.png), no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../img/tour-packages-header.png), no-repeat center center;
   background-size: cover;
  
 }
