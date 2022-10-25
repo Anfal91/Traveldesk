@@ -9970,7 +9970,7 @@ h6,
 }
 .carousel-item
 {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../img/tour-packages-header.png), no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../img/loud.png), no-repeat center center;
   background-size: cover;
  
 }
@@ -10039,7 +10039,13 @@ h6,
   transition: .5s;
   height: 500px;
 }
-
+.visa-package-item {
+  transition: .5s;
+  height: 425px;
+}
+.visa-package-item:hover {
+  box-shadow: 0 0 30px #CCCCCC;
+}
 .package-item:hover {
   box-shadow: 0 0 30px #CCCCCC;
 }
